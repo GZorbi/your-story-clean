@@ -1,1 +1,9 @@
-{"build": {"production": {"developmentClient": False, "distribution": "internal"}}}
+{
+  "build": {
+    "android": {
+      "releaseChannel": "default",
+      "developmentClient": false,
+      "distribution": "store"
+    }
+  }
+}
