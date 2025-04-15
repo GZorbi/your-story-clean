@@ -27,10 +27,10 @@
     "web": {
       "favicon": "./assets/icons/app_icon_clean.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "9dc8e031-fa1a-4a7c-bd08-3ea2374d5ba3"
-      }
-    }
+    "sdkVersion": "50.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ]
   }
 }
