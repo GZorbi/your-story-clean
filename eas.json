@@ -1,8 +1,12 @@
 {
+  "cli": {
+    "appVersionSource": "appVersion"
+  },
   "build": {
     "production": {
-      "developmentClient": false,
-      "distribution": "internal"
+      "android": {
+        "buildType": "apk"
+      }
     }
   }
 }
